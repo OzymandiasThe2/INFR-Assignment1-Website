@@ -31,7 +31,7 @@ input[type="Entry"]{
 }
 
 input[type="Year"]{
-  width: 80px;
+  width: 100px;
   padding: 5px 20px;
   margin: 8px 0;
   display: inline-block;
