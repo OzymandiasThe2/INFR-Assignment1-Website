@@ -120,12 +120,6 @@ margin-top: 10px;
 margin-bottom: 15px;
 }
 
-p.error_message{
-font-size: 20px;
-color: red;
-text-align: left;
-}
-
 input.box.size.check{
   width: 100%;
 }
@@ -136,4 +130,9 @@ body{
 
 .over{
   height: 100%;
+}
+
+.red{
+  font-weight: bold;
+  color: red;
 }
