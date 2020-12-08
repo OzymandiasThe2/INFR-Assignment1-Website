@@ -1,0 +1,55 @@
+div.RI{
+  float: left;
+  width: 45%;
+  text-align: center;
+}
+
+div.RP{
+  float: right;
+  width: 45%;
+  text-align: center;
+}
+
+div.title{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+div.RIElements{
+  display:inline-block;
+}
+
+div.RIcontent{
+  display: inline-block;
+
+}
+
+div.RPcontent{
+  display: inline-block;
+}
+
+img.RPimage{
+  display:inline-block;
+  width: 200px;
+  height: 240px;
+}
+
+p.RPtext{
+  display:inline-block;
+}
+
+div:hover.course{
+  background-color: lightgrey;
+}
+
+div{
+  overflow: hidden;
+}
+
+img{
+width: 400px;
+height: 300px;
+padding-bottom: 5px;
+}
+

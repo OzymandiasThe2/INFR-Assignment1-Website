@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Research and Interest Programs</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/mystyle.css">
+    <link rel="stylesheet" href="../Css/mastercss.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="../Js/myJs.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+  <script src="../Js/frontPage-Angular.js"></script>
+  </head>
+  <body id = "colorChange" class = "light" ng-app="indexPage" ng-controller = "researchWeb">
+
+    <div id = "colorChange1" class="header light">
+      <h1>Research Interest and Programs</h1>
+    </div>
+
+    <nav id = "navHolder"> </nav>
+
+<div class="container23">
+  <div class="box row m-3">
+    <div class="col-md-6">
+      <h2 align="center">Research Interest</h2> <hr> <!--Static Input -->
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Vel risus commodo viverra maecenas accumsan lacus. Interdum posuere lorem ipsum dolor. Placerat orci nulla pellentesque dignissim enim sit. Tincidunt tortor aliquam nulla facilisi cras fermentum. Elementum tempus egestas sed sed risus pretium quam vulputate. Nibh sed pulvinar proin gravida hendrerit lectus a. Elementum tempus egestas sed sed risus pretium quam. Sed felis eget velit aliquet sagittis id consectetur purus ut.</p>
+        <br>
+        <p> Ut lectus arcu bibendum at varius vel pharetra vel turpis. Eu sem integer vitae justo eget magna fermentum iaculis eu. A diam sollicitudin tempor id. Non quam lacus suspendisse faucibus interdum posuere lorem. Suspendisse interdum consectetur libero id. Vitae tortor condimentum lacinia quis vel eros. Pellentesque diam volutpat commodo sed. Quis hendrerit dolor magna eget. Erat pellentesque adipiscing commodo elit at imperdiet dui. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Elit eget gravida cum sociis natoque. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Euismod lacinia at quis risus sed vulputate odio ut enim. Quam adipiscing vitae proin sagittis nisl rhoncus mattis. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Aliquam vestibulum morbi blandit cursus risus at. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Neque volutpat ac tincidunt vitae. Volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
+    </div>
+
+    <div class="col-md-6">
+      <h2 align="center">Research Programs</h2> <hr>
+      <div class="col-md-12">
+        <div class="row" ng-repeat = "x in researchData">
+          <div class="col-md-6">
+            <h3>{{x.title}}</h3>
+            <p>{{x.description}}</p>
+          </div>
+            <div class="col-md-6">
+              <img src= {{x.image1}} alt="loading image">
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+<br><br><br><br><br><br><br><br><br><br>
+<div id="footerHolder"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+input[type=text], select{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label.titles{
+  font-size: 17pt;
+  font-weight: bold;
+}
+
+.newButton{
+  margin-bottom: 15px;
+}
+
+textarea.rAdmin{
+  width: 100%;
+  height: 250px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  vertical-align: top;
+  text-align: left;
+}
+
+input.adminField{
+  width: 100%;
+}
